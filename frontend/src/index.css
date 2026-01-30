@@ -6,24 +6,31 @@
 
 :root {
   --radius: 0.625rem;
-  --background: oklch(1 0 0);
-  --foreground: oklch(0.145 0 0);
+  --background: oklch(0.98 0.01 280); /* Very light lavender-ish background */
+  --foreground: oklch(0.2 0.02 280);
   --card: oklch(1 0 0);
   --card-foreground: oklch(0.145 0 0);
   --popover: oklch(1 0 0);
   --popover-foreground: oklch(0.145 0 0);
-  --primary: oklch(0.205 0 0);
-  --primary-foreground: oklch(0.985 0 0);
-  --secondary: oklch(0.97 0 0);
-  --secondary-foreground: oklch(0.205 0 0);
-  --muted: oklch(0.97 0 0);
-  --muted-foreground: oklch(0.556 0 0);
-  --accent: oklch(0.97 0 0);
-  --accent-foreground: oklch(0.205 0 0);
+  --primary: #7371fc; /* Medium Slate Blue */
+  --primary-foreground: #f5efff; /* Lavender Mist */
+  --secondary: #e5d9f2; /* Lavender Veil */
+  --secondary-foreground: #7371fc;
+  --muted: #f5efff;
+  --muted-foreground: #a594f9; /* Soft Periwinkle */
+  --accent: #cdc1ff; /* Periwinkle */
+  --accent-foreground: #7371fc;
   --destructive: oklch(0.577 0.245 27.325);
-  --border: oklch(0.922 0 0);
-  --input: oklch(0.922 0 0);
-  --ring: oklch(0.708 0 0);
+  --border: #e5d9f2;
+  --input: #e5d9f2;
+  --ring: #a594f9;
+
+  /* Custom Lavender Palette from plan.md */
+  --lavender-veil: #e5d9f2;
+  --lavender-mist: #f5efff;
+  --periwinkle: #cdc1ff;
+  --soft-periwinkle: #a594f9;
+  --medium-slate-blue: #7371fc;
   --chart-1: oklch(0.646 0.222 41.116);
   --chart-2: oklch(0.6 0.118 184.704);
   --chart-3: oklch(0.398 0.07 227.392);
@@ -74,6 +81,11 @@
 }
 
 @theme inline {
+  --color-lavender-veil: var(--lavender-veil);
+  --color-lavender-mist: var(--lavender-mist);
+  --color-periwinkle: var(--periwinkle);
+  --color-soft-periwinkle: var(--soft-periwinkle);
+  --color-medium-slate-blue: var(--medium-slate-blue);
   --radius-sm: calc(var(--radius) - 4px);
   --radius-md: calc(var(--radius) - 2px);
   --radius-lg: var(--radius);
