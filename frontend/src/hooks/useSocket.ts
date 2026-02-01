@@ -44,6 +44,7 @@ export function useSocket(
         // Initialize socket connection
         socketRef.current = io(SOCKET_URL, {
             auth: { token },
+            withCredentials: true,
             transports: ['websocket', 'polling'],
         });
 

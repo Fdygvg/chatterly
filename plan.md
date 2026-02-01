@@ -248,3 +248,79 @@ model {
 
 
 
+
+
+# 💬 Chat App Development Roadmap
+
+## Phase 1: Core Foundation & Authentication
+- [x] Initialize Backend Architecture (Express, TypeScript, MongoDB)
+- [x] Implement User Authentication (JWT + Zod Validation)
+- [x] Set Up Frontend Foundation (Vite, React, shadcn/ui, Tailwind CSS)
+- [ ] Implement Lavender Design System & Global Styles
+- [ ] Create Login & Registration UI
+
+---
+
+## Phase 2: Real-time Messaging (1-on-1)
+- [ ] Set Up Socket.io on Backend
+- [ ] Implement Socket.io Connection Security
+- [ ] Create Message & Room Database Schemas
+- [ ] Build 1-on-1 Chat UI
+- [ ] Real-time Data Sync
+  - Online Status
+  - Typing Indicators
+
+---
+
+## Phase 3: Group Chats & Advanced Features
+- [ ] Implement Group Chat Logic & UI
+- [ ] Add Reaction System (Hold-to-React)
+- [ ] Message Pinning & Highlighting
+- [ ] Search Functionality
+  - Global Search
+  - Room-specific Search
+- [ ] Message Request System
+
+---
+
+## Phase 4: Multimedia & AI Integration
+- [ ] S3 File Upload Integration
+- [ ] File Security
+  - MIME Type Validation
+  - Signed URLs
+- [ ] AI Integration
+  - 1-on-1 Chat AI
+  - Memory System
+- [ ] GIF Support (AI-powered)
+- [ ] Mini Games
+  - Coin Flip
+  - Tic-Tac-Toe
+
+---
+
+## Phase 5: Polishing, Performance & Security
+- [ ] Profile Picture Color Scanning (Info Bar Sync)
+- [ ] Infinite Scroll & Lazy Loading
+- [ ] Skeleton Loaders & Optimistic UI
+- [ ] Google Authentication Integration
+- [ ] Call / Video Buttons (UI Placeholder)
+- [ ] Security Audit
+  - Rate Limiting
+  - Redis Setup
+
+
+
+
+Good but now i want you to do several things for me , phase 4 + 5 , i want you to split it into frontend and backend , i also have some new plan.md, @cloudserver.md, @email.md, @AI.md files so add those into consideratiosn when making this new plan of backend and fromtend , and also add dark mode to the list of frontend , and then i also want you to link my mongodb URI , so the data can actually besaved to the db  
+so jsut two things in general , new plan and link backend to mongodb_uri
+
+
+
+
+MESSAGE
+BACKEND
+TEST BACKEND
+
+
+
+
